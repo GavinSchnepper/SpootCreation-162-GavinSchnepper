@@ -84,8 +84,6 @@ class Spoot{
     ability = spootAbility;
   }
 
-  //This details method will send a message to the user that shows the description
-  //of the Spoot and outlines its characteristics.
   public void details(){
     System.out.println("My name is " + name + ". I am " + age + " years old." + 
                        " I am " + color + " and I weigh " + weight + " lbs.");
