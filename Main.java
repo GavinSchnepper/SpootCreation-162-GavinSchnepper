@@ -50,7 +50,7 @@ class Spoot{
     ability = spootAbility;
   }
   
-  void details(){
+  public void details(){
     System.out.println("My name is " + name + ". I am " + age + " years old." + 
                        " I am " + color + " and I weigh " + weight + " lbs.");
   }
